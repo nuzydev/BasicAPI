@@ -2,7 +2,7 @@ const express = require("express")
 
 const app = express()
 
-app.get("/endpoint", async (req, res) => {
+app.get("/endpoint", async (res) => {
     res.json({ message: "Hello, world!" });
 })
 
